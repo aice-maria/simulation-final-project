@@ -1,0 +1,103 @@
+SIMAN Run Controller.
+
+1.2155169 Hours>
+                                      ARENA Simulation Results
+                                                Aice
+
+                                  Summary for Replication 1 of 15
+
+Project: Unnamed Project                                             Run execution date :11/30/2020
+Analyst: Aice                                                        Model revision date:11/30/2020
+
+Replication ended at time      : 1.2155169 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+pieza.VATime                                .29068     (Insuf)    .25967     .32273          3    
+pieza.NVATime                               .23826     (Insuf)    .14480     .32210          3    
+pieza.WaitTime                              .23523     (Insuf)    .00000     .38245          3    
+pieza.TranTime                              .00000     (Insuf)    .00000     .00000          3    
+pieza.OtherTime                             .00000     (Insuf)    .00000     .00000          3    
+pieza.TotalTime                             .76417     (Insuf)    .61174     .95307          3    
+pieza.VACost                                9.1094     (Insuf)    9.0142     9.2221          3    
+pieza.NVACost                               2.6209     (Insuf)    1.5927     3.5431          3    
+pieza.WaitCost                              1.8569     (Insuf)    .00000     2.9106          3    
+pieza.TranCost                              .00000     (Insuf)    .00000     .00000          3    
+pieza.OtherCost                             .00000     (Insuf)    .00000     .00000          3    
+pieza.TotalCost                             13.587     (Insuf)    12.557     14.609          3    
+ESPERA FINAL.Queue.WaitingTime              .19588     (Insuf)    .00000     .30771          4    
+ESPERA FINAL.Queue.WaitingCost              2.1546     (Insuf)    .00000     3.3847          4    
+PROCESO DE FRESADO.Queue.WaitingTime        .32912     (Insuf)    .00000     .57306         12    
+PROCESO DE FRESADO.Queue.WaitingCost        .49367     (Insuf)    .00000     .85959         12    
+PROCESO DE PULIDO.Queue.WaitingTime         7.6738E-04 (Insuf)    .00000     .00527          9    
+PROCESO DE PULIDO.Queue.WaitingCost         .00000     (Insuf)    .00000     .00000          9    
+PROCESO DE TALADRADO.Queue.WaitingTime      .03762     (Insuf)    .00000     .09115         10    
+PROCESO DE TALADRADO.Queue.WaitingCost      .00000     (Insuf)    .00000     .00000         10    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+pieza.WIP                                   9.9061     (Insuf)    .00000     16.000     16.000    
+Encargado.NumberBusy                        .76171     (Insuf)    .00000     1.0000     1.0000    
+Encargado.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Encargado.Utilization                       .76171     (Insuf)    .00000     1.0000     1.0000    
+Fresador.NumberBusy                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Fresador.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Fresador.Utilization                        1.0000     (Insuf)    .00000     1.0000     1.0000    
+Pulidor.NumberBusy                          .65191     (Insuf)    .00000     1.0000     .00000    
+Pulidor.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Pulidor.Utilization                         .65191     (Insuf)    .00000     1.0000     .00000    
+Taladrador.NumberBusy                       .86490     (Insuf)    .00000     1.0000     1.0000    
+Taladrador.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Taladrador.Utilization                      .86490     (Insuf)    .00000     1.0000     1.0000    
+ESPERA FINAL.Queue.NumberInQueue            1.4783     (Insuf)    .00000     5.0000     5.0000    
+PROCESO DE FRESADO.Queue.NumberInQueue      4.8149     (Insuf)    .00000     8.0000     7.0000    
+PROCESO DE PULIDO.Queue.NumberInQueue       .00568     (Insuf)    .00000     1.0000     .00000    
+PROCESO DE TALADRADO.Queue.NumberInQueue    .32861     (Insuf)    .00000     1.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+pieza.NumberIn                              19.000    
+pieza.NumberOut                             3.0000    
+Encargado.NumberSeized                      4.0000    
+Encargado.ScheduledUtilization              .76171    
+Encargado.BusyCost                          .00000    
+Encargado.IdleCost                          .00000    
+Encargado.UsageCost                         .00000    
+Fresador.NumberSeized                       12.000    
+Fresador.ScheduledUtilization               1.0000    
+Fresador.BusyCost                           5.9612    
+Fresador.IdleCost                           .00000    
+Fresador.UsageCost                          24.000    
+Pulidor.NumberSeized                        9.0000    
+Pulidor.ScheduledUtilization                .65191    
+Pulidor.BusyCost                            2.3772    
+Pulidor.IdleCost                            1.6924    
+Pulidor.UsageCost                           9.0000    
+Taladrador.NumberSeized                     10.000    
+Taladrador.ScheduledUtilization             .86490    
+Taladrador.BusyCost                         1.2579    
+Taladrador.IdleCost                         .49267    
+Taladrador.UsageCost                        20.000    
+All Entities.VACost                         64.384    
+All Entities.NVACost                        7.8627    
+All Entities.WaitCost                       14.542    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      86.790    
+All Resources.BusyCost                      9.5964    
+All Resources.IdleCost                      2.1851    
+All Resources.UsageCost                     53.000    
+All Resources.TotalCost                     64.781    
+System.TotalCost                            88.975    
+System.NumberOut                            3.0000    
+
